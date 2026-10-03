@@ -163,8 +163,8 @@ void Bus::save(std::ofstream& file) const
     file << "Bus\n";
     file << getBrand() << '\n';
     file << getModel() << '\n';
-    file << seatingPlaces << '\n';
     file << totalPlaces << '\n';
+    file << seatingPlaces << '\n';
     file << destination << '\n';
 }
 
